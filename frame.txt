@@ -1,0 +1,51 @@
+        <div class="container">
+            <!-- div 1  Navbar-->
+            <div id="box1">
+                <nav class="background">
+                    <label class="logo">Fitness Club</label>
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a onclick="clickClass()" href="#">Classes</a></li>
+                        <li><a href="Personal Workout.html">Personal Workout</a></li>
+                        <li><a href="Price Plans.html">Price and Plan</a></li>
+                        <li><a href="Schedule.html">Schedule</a></li>
+                        <li><a href="Sign up.html">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- ...................................................... -->
+
+
+
+            
+
+            <!-- ................................................. -->
+
+            <!-- div 6 -->
+            <section class="six flex-container clearfix ">
+                <h3 class="big-text centre"> ARE YOU READY FOR CHANGES?</h3>
+                <div class="main-btn ">
+                    <a href="Sign up.html"> <button>MAKE IT HAPPENS</button></a>
+                </div>
+
+            </section>
+
+
+            <!-- div 7 -->
+
+
+            <footer class="background clearfix flex-container">
+                <div class="box ">
+                    <div class="footer-heading">WORKING HOURS </div>
+                    <div class="footer-content">Monday-Friday<br> 5:00AM-12:00AM <br>Sunday-Saturday 8:00AM-10:00AM
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="footer-heading">ADDRESS</div>
+                    <div class="footer-content">123 Mars road , <br> near Moon Highway beside Jupitar <br>phone
+                        no-1234343423</div>
+                </div>
+            </footer>
+
+        </div>
