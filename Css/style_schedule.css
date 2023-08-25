@@ -1,0 +1,26 @@
+#Schedule-id{
+    padding: 43px;
+
+}
+
+#Schedule-id h1{
+    color: white;
+    margin: 44px 0 4px 96px;
+    font-size: 54px;
+    }
+
+.section-schedule{
+display: inline-block;
+width: 30%;
+padding: 0px 0 23px 93px;
+}
+
+.section-schedule h2{
+    margin: 33px 0 -12px 0;
+
+}
+
+.section-schedule ul{
+color: white;
+font-size: 21px;
+}

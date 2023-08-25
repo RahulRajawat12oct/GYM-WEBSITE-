@@ -1,0 +1,38 @@
+#signUp-id{
+    border: 2px solid red;
+}
+
+
+label {
+    font-size: 28px;
+}
+#boxes{
+    margin-left: 553px;
+}
+
+input {
+    display: flex;
+    float: right;
+    margin-right: 400px;
+}
+textarea{
+    display: flex;
+    float: right;
+    margin-right: 325px;
+    margin-left: 400px;
+    margin-top: -15px;
+}
+h1{
+    font-size: 59px;
+    margin: 22px;
+}
+
+p{
+    font-size: 28px;
+    margin: 22px;
+}
+#ch{
+    display: inline;
+    float: none;
+    margin-right: 0;
+}

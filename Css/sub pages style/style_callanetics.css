@@ -1,0 +1,93 @@
+#class1{
+    width: 100%;
+    height: 561px;
+    position: relative;
+    overflow: hidden;
+    top: -1px;
+
+
+}
+#class1 div{
+    width: 50%;
+    height: 700px;
+    position: absolute;
+
+}
+
+#class1 h1{
+    color: rgb(238, 143, 19);
+    font-size: 54px;
+    margin: 6px 0 6px 0;
+
+}
+
+#class1 p{
+    color: white;
+    font-size: 28px;
+
+}
+#class1 img{
+    height: 700px;
+    width: 100%;
+    float: right;
+    margin: -143px 0 0 0;
+    opacity: .3;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.sub1{
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 700px;
+
+}
+.sub1 div{
+    
+    display: inline-block;
+    border: 2px solid yellow;
+    padding: 45px 144px 10px 35px;
+    width: 40%;
+    height: 700px;
+
+} 
+.sub1 h1{
+}
+
+.sub1 p{
+}
+img{
+  width: 30%; 
+  height: 350%;
+  display: block;
+
+
+}
+ */

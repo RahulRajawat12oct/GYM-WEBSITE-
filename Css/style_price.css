@@ -1,0 +1,29 @@
+#Price-and-plans {
+    display: inline-block;
+    width: 100%;    
+    margin-top: -1px;
+}
+
+#Price-and-plans h1{
+    color: white;
+    margin: 44px 0 44px 96px;
+    font-size: 54px;
+}
+
+
+ .section-PAP{
+     color: white;
+}
+
+ .section-PAP div{
+    float: left;
+    width: 50%;
+    padding: 0px 0 112px 100px;
+}
+.section-PAP div h3{
+    font-size: 21px;
+}
+.section-PAP div ul {
+    font-size: 21px;
+    line-height: 1.5;
+}

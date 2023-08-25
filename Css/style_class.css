@@ -1,0 +1,26 @@
+
+.class1{
+ box-sizing: border-box;   
+}
+.class1 h1{
+    font-size: 54px;
+    padding: 73px 0 73px 112px;
+    color: white;
+}
+.class1 div{
+    display: inline-block;
+    margin: 0px 104px 46px 123px;
+}
+.class1 div img{
+    max-width: 400px;
+}
+.class1 div h2{
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    margin-top: 12px;
+}
+.class1 div h2 a{
+    color:white;
+    margin-top: 15px;
+    padding-top: 0;
+}

@@ -1,0 +1,449 @@
+.container1{
+    width: 100%;
+    min-height: 100vh;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#box1{
+      position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    
+}
+#click{
+    display: none;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav img {
+    background-color: white;
+    height: 60px;
+    margin-top: 4px;
+    border-radius: 20px;
+    float: right;
+    display: none;
+    
+}
+ nav .logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    width: auto;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px; 
+
+    text-transform: uppercase;
+}
+.active{
+    padding: 7px 13px;
+    border-radius: 3px; 
+    line-height: 20px;
+}
+
+  .active ,a:hover{
+    background: rgb(34, 206, 91);
+    transition: .5s;
+    
+}
+
+.background{
+    background: rgb(0 , 0, 0.7)url("Image/workout image mens and women/img1B.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+
+
+
+
+/* first section */
+
+
+
+
+.box-main{
+    display: flex;
+    position: relative;
+    
+}
+.first-half{
+    position: absolute;
+    width: auto;
+    height: 96%;
+    overflow: auto;
+}
+
+.second-half img{
+    width: 100vw;
+    height: 567px;
+    overflow: hidden;
+}
+.big-text{
+    font-size: 3em;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.small-text{
+    font-size: 1.1em;
+    color: white;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+    
+
+    /* second section */
+
+    #btn-sec-2{
+    position: relative;
+    left: 15%;
+    }
+
+
+    .second-section div{
+        /* border: 2px solid black; */
+        display: inline-block;
+        width: 48%;
+        align-items: center;
+        
+    }
+
+    .second-section div img{
+        margin-left:20%;
+    width: 60%;
+    height: auto;
+    }
+
+   .second-section div h3{
+    text-align: center;
+    margin: 20px;
+} 
+#class-h{
+    
+    /* border: 2px solid; */
+    padding: 28px;
+    font-size: 53px;
+
+}
+#classbtn{
+    margin: 0 0 4% 44%;
+
+}
+
+.second-section .sub-heading{
+margin:34px 0px 34px 126px;
+    color: black;
+    display: block;
+    font-size: 6vh;
+}
+#aclass {
+    background: none;
+}
+
+#btn-sec-2{
+    display: block;
+    margin: 0;
+    padding:0;
+    /* position: relative; */
+    /* margin: auto; */
+}
+#a1{
+    width: 100%;
+    margin: 0 0 30px 41%;
+}
+#a1-btn{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/*about fitness club*/
+
+
+
+
+.section4{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+
+.section4-aside{
+    position: absolute;
+    width: 546px;
+    height: 814px;
+    overflow: auto;
+    padding: 0 35px 0 35px;
+    justify-content: left;
+    margin-left: 71px;
+    margin-top: 20px;
+    padding: 239px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.section4-bgimg{
+    width: 100vw;
+    height: 684px;
+    overflow: hidden;
+    opacity:.9;
+}
+
+
+.section4-aside .main-btn {
+    margin: 43px 0px 0px 0px;
+}
+
+    /* box5 */
+.box5{
+    position: relative;
+    display: flex;
+    margin: -4px;
+    overflow: hidden;
+} 
+.box5 .content{
+    
+    padding: 34px 55px 6px 0px;
+
+}
+.aside{
+    position: absolute;
+    width: 546px;
+    height: 595px;
+    /* overflow: auto; */
+    padding: 0 35px 0 35px;
+    justify-content: left;
+    margin-left: 71px;
+    margin-top: 20px;
+    padding: 0 239px 0 0 ;
+}
+.bg-image{
+    width: 100vw;
+    height: auto; 
+    
+ 
+   
+}
+#box5{
+    margin-top: -4px;
+}
+
+
+
+   /* section 6 */
+ .six{
+    background-color: white;
+    height :45vh;
+    display: block;
+    padding-top: 10px;
+    padding-left: 0;
+}
+.six .main-btn{
+    
+}
+
+.six .big-text{
+    color: black;
+}
+.centre{
+ /* margin: 8vh; */
+
+}
+
+
+
+
+#second-last{
+    
+    
+    height: 200px;
+    /* align-items: center; */
+    text-align: center;
+
+}
+#second-last h3{
+    display: inline-block;
+    margin-top: 72px;
+    font-size: 40px;
+    margin-right: 100px;
+
+}
+#second-last div{
+    display: inline-block;
+}
+
+    /* footer */
+
+    footer{
+        bottom: 0;
+        height :338px;
+    }
+
+
+   
+
+    .flex-container1{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .flex-container1 .box{
+        width: 50%;
+        align-self: center;
+
+    }
+
+    .flex-container1 .box div{
+        text-align: center;
+
+    }
+    .footer-heading{
+        line-height: 6vh;
+    font-size: 5vh;
+    font-weight: bold;
+    color: #dfd1c8f7;
+    }
+.footer-content{
+    color: white;
+    line-height: 26px;
+    font-size: 3vh;    
+    padding: 24px 0px 0px 0px;
+}
+    .clearfix::after{
+        content:"";
+        clear: both;
+        display:table;
+
+
+    }
+    .sub-heading{
+        line-height: 6vh;
+        font-size: 5vh;
+        font-weight: bold;
+        color: #dfd1c8f7;
+        text-align: left;
+        margin: 34px 0 34px 0;
+    }
+     .content{
+        color: white;
+        line-height: 26px;
+        font-size: 3vh;    padding: 34px 30px 6px 0px;
+    }
+   /* 8888888888888888888888888888888888888888888888888888888888888888888 */
+
+    @media (max-width:1300px){
+         #menu {
+            display: block;
+        }
+
+       
+nav ul{
+    position: fixed;
+    width: 24%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    left: -24%;
+    transition: all 0.8s ease;
+    top: 81px;
+
+}
+nav ul li{
+    display: block;
+}
+
+#click:checked ~ ul{
+    left: 0;
+
+
+}
+
+}
+/* .................................................................... */
+
+@media(max-width:840px)  {
+    /* #classesH{
+        font-size: 40px;
+    margin: 21px 0px 21px 58px;
+    
+    } */
+    nav ul{
+        width:43% ;
+        left: -43%;
+    }
+  
+   
+ 
+
+    .second-section div{
+        width: 128%;
+    margin-left: -82px;
+    align-items: center;
+        
+    }
+#a1{
+    margin: 0 0 30px 33%;
+}
+#second-last{
+    
+ 
+}
+#second-last h3{
+
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 40px;
+    margin-right: 100px;
+
+}
+#second-last div{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+    
+}
+
+   

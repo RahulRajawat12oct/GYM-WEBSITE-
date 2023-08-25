@@ -1,0 +1,51 @@
+
+
+.PersonalWorkouts{
+    box-sizing: border-box;  
+}
+.PersonalWorkouts h1 {
+    font-size: 54px;
+    padding: 73px 0 73px 112px;
+    color: white;
+}
+
+.section-PW{
+    /* border: 2px solid red; */
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+.trainer-img{
+    /* float: right; */
+    width: 70%;
+    overflow: hidden;
+    border-radius: 0 0 0 142px;
+}
+.trainer-content{
+    height: 390px;
+    margin: 28px;
+    border: 2px solide yellow;
+    width: 30%;
+}
+
+
+
+.trainer-content p{
+    color: white;
+    padding-right: 200px;
+    line-height: 2;
+    font-size: 17px;
+}
+.trainer-content button{
+    margin: -150px;
+}
+
+#section-pd1 img{
+    border-radius: 168px 0 168px 0;
+}
+#section-pd2 img{
+    border-radius: 0 168px 168px 142px;
+}
+#section-pd3 img {
+    border-radius: 168px 0 0 0;
+}
